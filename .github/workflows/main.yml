@@ -1,7 +1,7 @@
 # .github/workflows/**main.yml**
 name: Django-app workflow
 
-on: [push]
+on: [ push ]
 
 jobs:
   tests:
@@ -72,47 +72,8 @@ jobs:
           host: 158.160.27.80
           # username: ${{ secrets.USER }}
           username: tabachkova04
-          # key: ${{ secrets.SSH_KEY }}
-          key: 
-          -----BEGIN OPENSSH PRIVATE KEY-----
-          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
-          ngwibgGvpbHK2TiELb2/jndQylc=
-          -----END OPENSSH PRIVATE KEY-----
+          key: ${{ secrets.SSH_KEY }}
+
           # passphrase: ${{ secrets.PASSPHRASE }} # Если ваш ssh-ключ защищён фразой-паролем
           passphrase: 9037911819
           script: |
