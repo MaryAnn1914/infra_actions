@@ -73,7 +73,8 @@ jobs:
           # username: ${{ secrets.USER }}
           username: tabachkova04
           # key: ${{ secrets.SSH_KEY }}
-          key: -----BEGIN OPENSSH PRIVATE KEY-----
+          key: 
+          -----BEGIN OPENSSH PRIVATE KEY-----
           b3BlbnNzaC1rZXktdjEAAAAACmFlczI1Ni1jdHIAAAAGYmNyeXB0AAAAGAAAABBEgajcal
           xOsI3rVz5YJg7+AAAAEAAAAAEAAAGXAAAAB3NzaC1yc2EAAAADAQABAAABgQCgA9wGf+Va
           aU5yi6rLkOON7WC3g5z4lVXFIE+g4F50RfmDt/oOuvTPcA566QtCNGz6C2bvpDSBSiNJsA
